@@ -118,3 +118,6 @@ func (mc *_modelCache) clean() {
 func ResetModelCache() {
 	modelCache.clean()
 }
+func GetModelCache()*_modelCache{
+	return 	modelCache
+}
